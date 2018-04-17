@@ -1,0 +1,2 @@
+# HAMFAST
+Implemented HAMFAST paper 
