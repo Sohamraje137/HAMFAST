@@ -6,8 +6,8 @@
 
 #### Team members
 
-Bidyadhar Mohanty(16CO212)<br />
 Soham P. Patil (16CO249)<br />
+Bidyadhar Mohanty(16CO212)<br />
 
 
 
@@ -49,14 +49,15 @@ Francesco Pappalardo,Cristiano Calonaci,Marzio Pennisi,Emilio Mastriani,Santo Mo
 
 <p>All the codes were complied in ANSI-C</p>
 <p>Laptops with 8GB RAM and 4 mb caches were used to obtain the results</p>
-<p>To obtained the cache misses <strong>Cachegrind</srong> tool was used </p>
+<p>To obtained the cache misses Cachegrind tool was used </p>
 <p>To uses cachegrind ,after compliation use the following code</p>
 <pre>valagrind --tool=cachegrind ./a.out</pre>
 <p>To obtain time v/s bit length graph the cache was flushed regularly.Following command was used:</p>
 <pre>  echo /proc/sys/vm/drop_caches </pre>
 
-<p>Following Results were obtained after implementing</p>
-<p> </p>
+<br/>
+
+Following are the expected graphs from the implementation:<br/>
 ![Image 1](images/img1.png?raw=true "Time vs Bit-length")
 ![Image 2](images/img2.png?raw=true "Cache-miss vs Bit-length")
 * **Note:**
